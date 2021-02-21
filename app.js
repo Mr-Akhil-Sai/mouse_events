@@ -31,6 +31,9 @@ function creatingDiv() {
   box.style.width = width;
   box.style.height = height;
   box.style.border = "1px solid #000";
+  box.style.position = "absolute";
+  box.style.left = originX;
+  box.style.top = originY;
   originX = "";
   originY = "";
   endX = "";
